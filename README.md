@@ -27,7 +27,7 @@ How I setup Cursor with extensions
 ## Issues & Solutions
 * **Issue 1:** Could not login to Claude.
 * **Solution:** Closed the web browser windows and re-entered the web links to login
-* **Issue 2:** Identity provider mismatched during login OpenAi.
+* **Issue 2:** Identity provider mismatch popup appeared during OpenAi login.
 * **Solution:** Created a project and generated API key.
 * **Issue 3:** Could not clone GitHub repository in Cursor by command palette.
 * **Solution:** Ran the clone command in terminal using the following command:  `cd Users\hp\OneDrive\Documents\cursor\Cursor-setup-task`.
