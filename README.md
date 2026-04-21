@@ -6,7 +6,7 @@ How I setup Cursor with extensions
 * **Cursor IDE**: AI-powered code editor.
 * **Claude Code Extension**: Terminal based agentic AI tool.
 * **Codex Extension**: AI agent on the side bar.
-* **Git Bash**: Command-line application for Windows that provides a Bash terminal emulator environment.
+* **Git**: Command-line application for Windows that provides a Bash terminal emulator environment.
 
 
 ## Steps Completed
@@ -21,16 +21,21 @@ How I setup Cursor with extensions
 9. Installed Git Bash.
 10. Cloned the repository locally and initialized the documentation.
 11. Opened this Github repository in Cursor.
-12. Edited the readme.md file.
+12. Edited the README.md file.
+13. Pushed the README.md to GitHub.
 
 ## Issues & Solutions
-* **Issue:** Could not login to Claude.
+* **Issue 1:** Could not login to Claude.
 * **Solution:** Closed the web browser windows and re-entered the web links to login
-* **Issue:** Identity provider mismatched during login OpenAi.
+* **Issue 2:** Identity provider mismatched during login OpenAi.
 * **Solution:** Created a project and generated API key.
-* **Issue:** Could not clone GitHub repository in Cursor by command palette.
-* **Solution:** Ran the clone command in terminal.
-* **Issue:** Git not was not recognized.
-* **Solution:** Installed Git Bash on desktop and re-ran the clone command.
-* **Issue:** COuld not open the GitHub repository in Cursor.
+* **Issue 3:** Could not clone GitHub repository in Cursor by command palette.
+* **Solution:** Ran the clone command in terminal using the following command:  `cd Users\hp\OneDrive\Documents\cursor\Cursor-setup-task`.
+* **Issue 4:** When trying to clone the repository, I received an error stating that `'git' is not recognized as a cmdlet or function.`
+* **Solution:** I downloaded and installed Git from the official [git-scm.com](https://git-scm.com/) website and restarted Cursor to refresh the terminal path.
+* **Issue 5:** Could not open the GitHub repository in Cursor.
 * **Solution:** Restarted Cursor app and opened the repository.
+* **Issue 6:** When attempting to commit my changes, a popup appeared saying: `Make sure you configure your "user.name" and "user.email" in git.`
+* **Solution:** I opened the terminal and provided my identity to Git using the following commands: 
+  * `git config --global user.name "Trulylaf13"`
+  * `git config --global user.email "trulyaf@gmail.com"`
