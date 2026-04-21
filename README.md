@@ -27,15 +27,13 @@ How I setup Cursor with extensions
 ## Issues & Solutions
 * **Issue 1:** Could not login to Claude.
 * **Solution:** Closed the web browser windows and re-entered the web links to login
-* **Issue 2:** Identity provider mismatch popup appeared during OpenAi login.
-* **Solution:** Created a project and generated API key.
+* **Issue 2:** `Identity provider mismatch` popup appeared during OpenAi login.
+* **Solution:** Searched on web browser how to login to OpenAI when encountering this error. Then I created a project and generated API key.
 * **Issue 3:** Could not clone GitHub repository in Cursor by command palette.
 * **Solution:** Ran the clone command in terminal using the following command:  `cd Users\hp\OneDrive\Documents\cursor\Cursor-setup-task`.
 * **Issue 4:** When trying to clone the repository, I received an error stating that `'git' is not recognized as a cmdlet or function.`
-* **Solution:** I downloaded and installed Git from the official [git-scm.com](https://git-scm.com/) website and restarted Cursor to refresh the terminal path.
-* **Issue 5:** Could not open the GitHub repository in Cursor.
-* **Solution:** Restarted Cursor app and opened the repository.
-* **Issue 6:** When attempting to commit my changes, a popup appeared saying: `Make sure you configure your "user.name" and "user.email" in git.`
+* **Solution:** Asked Gemini AI Pro what was the meaning of this error and how to solve it. and then I downloaded and installed Git from the official [git-scm.com](https://git-scm.com/) website and restarted Cursor to refresh the terminal path accordingly.
+* **Issue 5:** When attempting to commit my changes, a popup appeared saying: `Make sure you configure your "user.name" and "user.email" in git.`
 * **Solution:** I opened the terminal and provided my identity to Git using the following commands: 
   * `git config --global user.name "Trulylaf13"`
   * `git config --global user.email "trulyaf@gmail.com"`
